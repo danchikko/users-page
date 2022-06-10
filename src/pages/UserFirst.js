@@ -1,7 +1,9 @@
+import AllData from "../components/AllData";
+
 const UserFirst = () => {
     return (
         <div>
-            UserFirst
+            <AllData />
         </div>
     )
 }
