@@ -1,10 +1,10 @@
 import { Routes } from 'react-router-dom'
 import { Route } from 'react-router-dom'
-import AllData from './components/AllData'
-import UserTwo from './components/UserTwo'
+import UserTwo from './components/UserTwo/UserTwo'
 import Main from './pages/Main'
-import UserFirst from './pages/UserFirst'
-import UserSecond from './pages/UserSecond'
+import UserFirst from './pages/User1/UserFirst'
+import All from './pages/User2/All'
+import UserSecond from './pages/User2/UserSecond'
 
 function App() {
 	return (
@@ -13,7 +13,7 @@ function App() {
 				<Route path='/' element={<Main />} />
 				<Route path='userone' element={<UserFirst />} />
 				<Route path='usertwo' element={<UserSecond />}/>
-        <Route path='all' element={<AllData/>}/>
+				<Route path='all' element={<All />} />
 				<Route path='user2' element={<UserTwo />} />
 			</Routes>
 		</div>

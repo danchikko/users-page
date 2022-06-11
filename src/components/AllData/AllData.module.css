@@ -1,0 +1,19 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.img {
+    width: 900px;
+}
+
+.text {
+    width: 900px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    color: blue;
+    border: solid blue;
+}

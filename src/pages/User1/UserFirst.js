@@ -1,4 +1,4 @@
-import AllData from "../components/AllData";
+import AllData from "../../components/AllData/AllData";
 
 const UserFirst = () => {
     return (
