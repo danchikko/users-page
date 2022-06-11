@@ -13,10 +13,9 @@ const UserItem = (props) => {
 						<div className={classes.img}>
 							<img src={el.img} alt='img' />
 						</div>
-						<p>
-							{el.name} {el.lastName}
-						</p>
-						<button onClick={() => deleteChangeHandler(el.id)}>
+						<p>{el.name}</p>
+						<p>{el.lastName}</p>
+						<button className={classes.btn} onClick={() => deleteChangeHandler(el.id)}>
 							Delete
 						</button>
 					</li>
