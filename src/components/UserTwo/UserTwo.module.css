@@ -1,12 +1,12 @@
 .container {
     margin: 0 auto;
-    background: rgb(141, 153, 154);
+    background: #f2ff01;
     text-align: center;
 }
 
 .content {
     font-size: 45px;
     font-weight: 700;
-    color: rgb(37, 250, 0);
+    color: rgb(29, 0, 250);
     margin-top: 0px;
 }

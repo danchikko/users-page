@@ -12,7 +12,7 @@
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    border: 1px solid red;
+    border: 6px solid rgb(0, 255, 42);
 }
 
 .list > button {
@@ -20,5 +20,4 @@
     border-radius: 8px;
     width: 80px;
     height: 20px;
-    font-weight: 700;
 }

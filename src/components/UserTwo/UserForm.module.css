@@ -33,4 +33,7 @@
     border-radius: 15px;
     width: 100px;
     height: 25px;
+    color: red;
+    font-weight: 700;
+    background-color: aqua;
 }
